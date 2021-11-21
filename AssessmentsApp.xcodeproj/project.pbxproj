@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		8A700DE2274B080A004BFEDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A700DE1274B080A004BFEDA /* AppDelegate.swift */; };
 		8A700DE4274B080A004BFEDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A700DE3274B080A004BFEDA /* SceneDelegate.swift */; };
-		8A700DE6274B080A004BFEDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A700DE5274B080A004BFEDA /* ViewController.swift */; };
 		8A700DE9274B080A004BFEDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A700DE7274B080A004BFEDA /* Main.storyboard */; };
 		8A700DEC274B080A004BFEDA /* AssessmentsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8A700DEA274B080A004BFEDA /* AssessmentsApp.xcdatamodeld */; };
 		8A700DEE274B080C004BFEDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A700DED274B080C004BFEDA /* Assets.xcassets */; };
 		8A700DF1274B080C004BFEDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A700DEF274B080C004BFEDA /* LaunchScreen.storyboard */; };
+		8A74B537274B0A2500C7D3BA /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A74B536274B0A2500C7D3BA /* MenuVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8A700DDE274B080A004BFEDA /* AssessmentsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssessmentsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A700DE1274B080A004BFEDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A700DE3274B080A004BFEDA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8A700DE5274B080A004BFEDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8A700DE8274B080A004BFEDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A700DEB274B080A004BFEDA /* AssessmentsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AssessmentsApp.xcdatamodel; sourceTree = "<group>"; };
 		8A700DED274B080C004BFEDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A700DF0274B080C004BFEDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A700DF2274B080C004BFEDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A74B536274B0A2500C7D3BA /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +60,10 @@
 			children = (
 				8A700DE1274B080A004BFEDA /* AppDelegate.swift */,
 				8A700DE3274B080A004BFEDA /* SceneDelegate.swift */,
-				8A700DE5274B080A004BFEDA /* ViewController.swift */,
+				8A74B536274B0A2500C7D3BA /* MenuVC.swift */,
 				8A700DE7274B080A004BFEDA /* Main.storyboard */,
-				8A700DED274B080C004BFEDA /* Assets.xcassets */,
 				8A700DEF274B080C004BFEDA /* LaunchScreen.storyboard */,
+				8A700DED274B080C004BFEDA /* Assets.xcassets */,
 				8A700DF2274B080C004BFEDA /* Info.plist */,
 				8A700DEA274B080A004BFEDA /* AssessmentsApp.xcdatamodeld */,
 			);
@@ -141,8 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A700DE6274B080A004BFEDA /* ViewController.swift in Sources */,
 				8A700DEC274B080A004BFEDA /* AssessmentsApp.xcdatamodeld in Sources */,
+				8A74B537274B0A2500C7D3BA /* MenuVC.swift in Sources */,
 				8A700DE2274B080A004BFEDA /* AppDelegate.swift in Sources */,
 				8A700DE4274B080A004BFEDA /* SceneDelegate.swift in Sources */,
 			);
@@ -299,7 +299,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -310,7 +310,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -327,7 +327,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -338,7 +338,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
