@@ -81,6 +81,58 @@ class GreenhouseTVC: UITableViewController, UITextFieldDelegate {
         self.present(alert, animated: true, completion: nil)
     }
     
+    
+    override func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        
+        let action = UIContextualAction(style: .destructive, title: "Delete") { (action, view, completionHandler) in
+            
+            let cropWorkerToRemove = self.greenhouses[indexPath.row]
+            
+            self.context.delete(cropWorkerToRemove)
+            
+            do {
+                try self.context.save()
+            }
+            catch {
+                
+            }
+            
+            self.fetchGreenhouses()
+        }
+        
+        return UISwipeActionsConfiguration(actions: [action])
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let cropWorker = self.greenhouses[indexPath.row]
+        
+        let alert = UIAlertController(title: "Edit Crop Worker", message: "Edit Name", preferredStyle: .alert)
+        alert.addTextField()
+        
+        let textField = alert.textFields![0]
+        textField.text = cropWorker.name
+        
+        let saveButton = UIAlertAction(title: "Save", style: .default) { (action) in
+            
+            let textField = alert.textFields![0]
+            
+            cropWorker.name = textField.text
+            
+            do {
+                try self.context.save()
+            }
+            catch {
+                
+            }
+            
+            self.fetchGreenhouses()
+        }
+        
+        alert.addAction(saveButton)
+        
+        self.present(alert, animated: true, completion: nil)
+    }
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
