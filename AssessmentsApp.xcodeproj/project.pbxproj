@@ -7,33 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A5A61C4275ADD8A000B806E /* AssessmentsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8A5A61C2275ADD8A000B806E /* AssessmentsApp.xcdatamodeld */; };
+		8A5A61CB275ADE5E000B806E /* CropWorker+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5A61C9275ADE5E000B806E /* CropWorker+CoreDataClass.swift */; };
+		8A5A61CC275ADE5E000B806E /* CropWorker+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5A61CA275ADE5E000B806E /* CropWorker+CoreDataProperties.swift */; };
+		8A5A61F6275AE156000B806E /* GreenHouse+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5A61F4275AE156000B806E /* GreenHouse+CoreDataClass.swift */; };
+		8A5A61F7275AE156000B806E /* GreenHouse+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5A61F5275AE156000B806E /* GreenHouse+CoreDataProperties.swift */; };
 		8A6F887B274C531A009CBC85 /* CropWorkerTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6F887A274C531A009CBC85 /* CropWorkerTVC.swift */; };
 		8A700DE2274B080A004BFEDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A700DE1274B080A004BFEDA /* AppDelegate.swift */; };
 		8A700DE4274B080A004BFEDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A700DE3274B080A004BFEDA /* SceneDelegate.swift */; };
 		8A700DE9274B080A004BFEDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A700DE7274B080A004BFEDA /* Main.storyboard */; };
-		8A700DEC274B080A004BFEDA /* AssessmentsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8A700DEA274B080A004BFEDA /* AssessmentsApp.xcdatamodeld */; };
 		8A700DEE274B080C004BFEDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A700DED274B080C004BFEDA /* Assets.xcassets */; };
 		8A700DF1274B080C004BFEDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A700DEF274B080C004BFEDA /* LaunchScreen.storyboard */; };
-		8A711DBE274DB5C00033BBC0 /* CropWorker+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A711DBC274DB5C00033BBC0 /* CropWorker+CoreDataClass.swift */; };
-		8A711DBF274DB5C00033BBC0 /* CropWorker+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A711DBD274DB5C00033BBC0 /* CropWorker+CoreDataProperties.swift */; };
+		8A71448C275050DF00205689 /* GreenhouseTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71448B275050DF00205689 /* GreenhouseTVC.swift */; };
+		8A71448E2750510000205689 /* VarietyTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71448D2750510000205689 /* VarietyTVC.swift */; };
+		8A7144902750511C00205689 /* AssessorTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71448F2750511C00205689 /* AssessorTVC.swift */; };
 		8A74B537274B0A2500C7D3BA /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A74B536274B0A2500C7D3BA /* MenuVC.swift */; };
 		8A74B539274B11C600C7D3BA /* AvoidStringley.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A74B538274B11C600C7D3BA /* AvoidStringley.swift */; };
+		8A7C76262755923000EBEC61 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7C76252755923000EBEC61 /* CloudKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A5A61C3275ADD8A000B806E /* AssessmentsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AssessmentsApp.xcdatamodel; sourceTree = "<group>"; };
+		8A5A61C9275ADE5E000B806E /* CropWorker+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CropWorker+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8A5A61CA275ADE5E000B806E /* CropWorker+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CropWorker+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8A5A61F4275AE156000B806E /* GreenHouse+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GreenHouse+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8A5A61F5275AE156000B806E /* GreenHouse+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GreenHouse+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		8A6F887A274C531A009CBC85 /* CropWorkerTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropWorkerTVC.swift; sourceTree = "<group>"; };
 		8A700DDE274B080A004BFEDA /* AssessmentsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssessmentsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A700DE1274B080A004BFEDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A700DE3274B080A004BFEDA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8A700DE8274B080A004BFEDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8A700DEB274B080A004BFEDA /* AssessmentsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AssessmentsApp.xcdatamodel; sourceTree = "<group>"; };
 		8A700DED274B080C004BFEDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A700DF0274B080C004BFEDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A700DF2274B080C004BFEDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8A711DBC274DB5C00033BBC0 /* CropWorker+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CropWorker+CoreDataClass.swift"; sourceTree = "<group>"; };
-		8A711DBD274DB5C00033BBC0 /* CropWorker+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CropWorker+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8A71448B275050DF00205689 /* GreenhouseTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenhouseTVC.swift; sourceTree = "<group>"; };
+		8A71448D2750510000205689 /* VarietyTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VarietyTVC.swift; sourceTree = "<group>"; };
+		8A71448F2750511C00205689 /* AssessorTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessorTVC.swift; sourceTree = "<group>"; };
 		8A74B536274B0A2500C7D3BA /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		8A74B538274B11C600C7D3BA /* AvoidStringley.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvoidStringley.swift; sourceTree = "<group>"; };
+		8A7C76232755922200EBEC61 /* AssessmentsApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AssessmentsApp.entitlements; sourceTree = "<group>"; };
+		8A7C76252755923000EBEC61 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A7C76262755923000EBEC61 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,8 +64,10 @@
 		8A6F8880274C54AA009CBC85 /* ModelData */ = {
 			isa = PBXGroup;
 			children = (
-				8A711DBC274DB5C00033BBC0 /* CropWorker+CoreDataClass.swift */,
-				8A711DBD274DB5C00033BBC0 /* CropWorker+CoreDataProperties.swift */,
+				8A5A61F4275AE156000B806E /* GreenHouse+CoreDataClass.swift */,
+				8A5A61F5275AE156000B806E /* GreenHouse+CoreDataProperties.swift */,
+				8A5A61C9275ADE5E000B806E /* CropWorker+CoreDataClass.swift */,
+				8A5A61CA275ADE5E000B806E /* CropWorker+CoreDataProperties.swift */,
 			);
 			path = ModelData;
 			sourceTree = "<group>";
@@ -59,9 +75,9 @@
 		8A700DD5274B080A004BFEDA = {
 			isa = PBXGroup;
 			children = (
-				8A6F8880274C54AA009CBC85 /* ModelData */,
 				8A700DE0274B080A004BFEDA /* AssessmentsApp */,
 				8A700DDF274B080A004BFEDA /* Products */,
+				8A7C76242755923000EBEC61 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,18 +92,47 @@
 		8A700DE0274B080A004BFEDA /* AssessmentsApp */ = {
 			isa = PBXGroup;
 			children = (
-				8A700DE1274B080A004BFEDA /* AppDelegate.swift */,
-				8A700DE3274B080A004BFEDA /* SceneDelegate.swift */,
+				8A7C76232755922200EBEC61 /* AssessmentsApp.entitlements */,
+				8A71448927504F4B00205689 /* Delegates */,
+				8A6F8880274C54AA009CBC85 /* ModelData */,
+				8A71448A27504F8400205689 /* SetupVC */,
 				8A74B536274B0A2500C7D3BA /* MenuVC.swift */,
-				8A6F887A274C531A009CBC85 /* CropWorkerTVC.swift */,
+				8A74B538274B11C600C7D3BA /* AvoidStringley.swift */,
 				8A700DE7274B080A004BFEDA /* Main.storyboard */,
 				8A700DEF274B080C004BFEDA /* LaunchScreen.storyboard */,
-				8A74B538274B11C600C7D3BA /* AvoidStringley.swift */,
 				8A700DED274B080C004BFEDA /* Assets.xcassets */,
 				8A700DF2274B080C004BFEDA /* Info.plist */,
-				8A700DEA274B080A004BFEDA /* AssessmentsApp.xcdatamodeld */,
+				8A5A61C2275ADD8A000B806E /* AssessmentsApp.xcdatamodeld */,
 			);
 			path = AssessmentsApp;
+			sourceTree = "<group>";
+		};
+		8A71448927504F4B00205689 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				8A700DE1274B080A004BFEDA /* AppDelegate.swift */,
+				8A700DE3274B080A004BFEDA /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		8A71448A27504F8400205689 /* SetupVC */ = {
+			isa = PBXGroup;
+			children = (
+				8A6F887A274C531A009CBC85 /* CropWorkerTVC.swift */,
+				8A71448B275050DF00205689 /* GreenhouseTVC.swift */,
+				8A71448D2750510000205689 /* VarietyTVC.swift */,
+				8A71448F2750511C00205689 /* AssessorTVC.swift */,
+			);
+			path = SetupVC;
+			sourceTree = "<group>";
+		};
+		8A7C76242755923000EBEC61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A7C76252755923000EBEC61 /* CloudKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,14 +206,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A700DEC274B080A004BFEDA /* AssessmentsApp.xcdatamodeld in Sources */,
 				8A6F887B274C531A009CBC85 /* CropWorkerTVC.swift in Sources */,
+				8A71448E2750510000205689 /* VarietyTVC.swift in Sources */,
 				8A74B537274B0A2500C7D3BA /* MenuVC.swift in Sources */,
 				8A74B539274B11C600C7D3BA /* AvoidStringley.swift in Sources */,
+				8A5A61CC275ADE5E000B806E /* CropWorker+CoreDataProperties.swift in Sources */,
 				8A700DE2274B080A004BFEDA /* AppDelegate.swift in Sources */,
+				8A5A61CB275ADE5E000B806E /* CropWorker+CoreDataClass.swift in Sources */,
+				8A5A61C4275ADD8A000B806E /* AssessmentsApp.xcdatamodeld in Sources */,
+				8A7144902750511C00205689 /* AssessorTVC.swift in Sources */,
 				8A700DE4274B080A004BFEDA /* SceneDelegate.swift in Sources */,
-				8A711DBE274DB5C00033BBC0 /* CropWorker+CoreDataClass.swift in Sources */,
-				8A711DBF274DB5C00033BBC0 /* CropWorker+CoreDataProperties.swift in Sources */,
+				8A5A61F6275AE156000B806E /* GreenHouse+CoreDataClass.swift in Sources */,
+				8A5A61F7275AE156000B806E /* GreenHouse+CoreDataProperties.swift in Sources */,
+				8A71448C275050DF00205689 /* GreenhouseTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +365,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AssessmentsApp/AssessmentsApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3TU7A7J546;
@@ -343,6 +394,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AssessmentsApp/AssessmentsApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3TU7A7J546;
@@ -390,12 +442,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		8A700DEA274B080A004BFEDA /* AssessmentsApp.xcdatamodeld */ = {
+		8A5A61C2275ADD8A000B806E /* AssessmentsApp.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				8A700DEB274B080A004BFEDA /* AssessmentsApp.xcdatamodel */,
+				8A5A61C3275ADD8A000B806E /* AssessmentsApp.xcdatamodel */,
 			);
-			currentVersion = 8A700DEB274B080A004BFEDA /* AssessmentsApp.xcdatamodel */;
+			currentVersion = 8A5A61C3275ADD8A000B806E /* AssessmentsApp.xcdatamodel */;
 			path = AssessmentsApp.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

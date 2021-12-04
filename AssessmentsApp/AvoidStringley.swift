@@ -14,4 +14,7 @@ enum Cells {
     static let NewVarietyNameCell           = "NewVarietyNameCell"
     static let NewVarietyHeadDensityCell    = "NewVarietyHeadDensityCell"
     static let CropWorkerNameCell           = "CropWorkerNameCell"
+    static let GreenhouseCell               = "GreenhouseNameCell"
+    static let VarietyCell                  = "VarietyCell"
+    static let AssessorCell                 = "AssessorCell"
 }

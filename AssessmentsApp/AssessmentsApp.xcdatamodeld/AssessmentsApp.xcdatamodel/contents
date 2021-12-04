@@ -3,7 +3,12 @@
     <entity name="CropWorker" representedClassName="CropWorker" syncable="YES">
         <attribute name="name" optional="YES" attributeType="String"/>
     </entity>
+    <entity name="GreenHouse" representedClassName="GreenHouse" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="rows" optional="YES" attributeType="Transformable" customClassName="[Int64]"/>
+    </entity>
     <elements>
         <element name="CropWorker" positionX="-63" positionY="-18" width="128" height="44"/>
+        <element name="GreenHouse" positionX="-45" positionY="9" width="128" height="59"/>
     </elements>
 </model>

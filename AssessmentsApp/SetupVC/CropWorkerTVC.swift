@@ -54,9 +54,12 @@ class CropWorkerTVC: UITableViewController {
         let alert = UIAlertController(title: "Add Crop Worker", message: "What is their name?", preferredStyle: .alert)
         alert.addTextField()
         
+        let cancelButton = UIAlertAction(title: "Cancel", style: .destructive, handler: nil)
         let submitButton = UIAlertAction(title: "Add", style: .default) { (action) in
             
             let textField = alert.textFields![0]
+            textField.autocapitalizationType = .words
+            textField.placeholder = "Name"
             
             
             let newCropWorker = CropWorker(context: self.context)
@@ -73,6 +76,7 @@ class CropWorkerTVC: UITableViewController {
         }
         
         alert.addAction(submitButton)
+        alert.addAction(cancelButton)
         self.present(alert, animated: true, completion: nil)
     }
     
